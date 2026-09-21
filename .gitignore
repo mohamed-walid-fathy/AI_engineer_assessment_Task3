@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+.env
+.venv*/
+
+# Streamlit
+.streamlit/
+
+# Project artefacts — never commit
+api_usage.txt
+*.log
+
+# Data — assessment extract is not committed; evaluator places it locally
+*.xlsx
+*.parquet
+data/*.xlsx
+data/*.parquet
+!data/.gitkeep
+
+# Hugging Face / model cache (470 MB download on first run)
+.cache/
+transformers_cache/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temporary / generated
+tmp/
+temp/
